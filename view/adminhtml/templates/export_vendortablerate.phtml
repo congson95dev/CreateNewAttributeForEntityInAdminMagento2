@@ -1,0 +1,15 @@
+<div class="admin__field-control">
+    <button title="Export CSV" type="button" class="action-default scalable" onclick="setLocation('<?php echo $block->getExportUrl()?>')" >
+        <span>Export CSV</span>
+    </button>
+
+</div>
+<script type="text/javascript">
+    require([
+        'jquery'
+    ], function ($) {
+        $(document).ready(function(){
+            $(".admin__field[data-index='export_csv'] .admin__field-label").show();
+        });
+    });
+</script>
