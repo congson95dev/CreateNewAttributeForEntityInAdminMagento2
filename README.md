@@ -1,0 +1,1 @@
+# CreateNewAttributeForEntityInAdminMagento2
